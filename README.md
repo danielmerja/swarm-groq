@@ -2,7 +2,7 @@
 
 # Swarm (experimental, educational)
 
-An educational framework exploring ergonomic, lightweight multi-agent orchestration.
+An educational framework exploring ergonomic, lightweight multi-agent orchestration. This is a fork of [OpenAI Swarm](https://github.com/openai/swarm)
 
 > [!WARNING]
 > Swarm is currently an experimental sample framework intended to explore ergonomic interfaces for multi-agent systems. It is not intended to be used in production, and therefore has no official support. (This also means we will not be reviewing PRs or issues!)
