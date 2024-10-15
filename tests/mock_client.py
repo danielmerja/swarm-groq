@@ -1,7 +1,9 @@
 from unittest.mock import MagicMock
 from swarm.types import ChatCompletionMessage, ChatCompletionMessageToolCall, Function
-from openai import OpenAI
-from openai.types.chat.chat_completion import ChatCompletion, Choice
+
+from groq import Groq
+from groq.types.chat.chat_completion import ChatCompletion, Choice
+
 import json
 
 
