@@ -16,7 +16,7 @@ class Agent(BaseModel):
     model: str = "llama3-groq-70b-8192-tool-use-preview"
     instructions: Union[str, Callable[[], str]] = "You are a helpful agent."
     functions: List[AgentFunction] = []
-    tool_choice: str = None
+    tool_choice: str = "none"
     parallel_tool_calls: bool = True
 
 
