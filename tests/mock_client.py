@@ -1,6 +1,5 @@
 from unittest.mock import MagicMock
 from swarm.types import ChatCompletionMessage, ChatCompletionMessageToolCall, Function
-
 from groq import Groq
 from groq.types.chat.chat_completion import ChatCompletion, Choice
 
